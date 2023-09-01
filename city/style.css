@@ -1,0 +1,182 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 100%;
+}
+
+.back-img {
+  width: 95%;
+  height: auto;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+ position: absolute;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  font-size: 14px;
+  border-radius: 50%;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 200ms ease-in 200ms;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 3000px) {
+  .button.g1 {
+    background-color: #6abf4b;
+    top: 75%;
+    right: 40%;
+  }
+  .button.g2 {
+    background-color: #6abf4b;
+    top: 35%;
+    right: 39%;
+  }
+  .button.g3 {
+    background-color: #6abf4b;
+    top: 44%;
+    left: 38%;
+  }
+
+  .button.g4 {
+    background-color: #6abf4b;
+    top: 59%;
+    right: 33%;
+  }
+
+  .button.b5 {
+    background-color: #3877ee;
+    top: 24%;
+    left: 31%;
+  }
+  .button.b6 {
+    background-color: #3877ee;
+    top: 65%;
+    left: 23%;
+  }
+  .button.b7 {
+    background-color: #3877ee;
+    top: 42%;
+    right: 25%;
+  }
+  .button.b8 {
+    background-color: #3877ee;
+    top: 65%;
+    right: 17%;
+  }
+  .button.b9 {
+    background-color: #3877ee;
+    top: 56%;
+    right: 42%;
+  }
+  .button.b10 {
+    background-color: #3877ee;
+    top: 18%;
+    right: 27.5%;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .button.g1 {
+    background-color: #6abf4b;
+    top: 75%;
+    right: 40%;
+    height: 20px;
+    width: 20px;
+  }
+  .button.g2 {
+    background-color: #6abf4b;
+    top: 35%;
+    right: 39%;
+    height: 20px;
+    width: 20px;
+  }
+  .button.g3 {
+    background-color: #6abf4b;
+    top: 44%;
+    left: 38%;
+    height: 20px;
+    width: 20px;
+  }
+
+  .button.g4 {
+    background-color: #6abf4b;
+    top: 59%;
+    right: 33%;
+    height: 20px;
+    width: 20px;
+  }
+
+  .button.b5 {
+    background-color: #3877ee;
+    top: 24%;
+    left: 31%;
+    height: 20px;
+    width: 20px;
+  }
+  .button.b6 {
+    background-color: #3877ee;
+    top: 65%;
+    left: 23%;
+    height: 20px;
+    width: 20px;
+  }
+  .button.b7 {
+    background-color: #3877ee;
+    top: 42%;
+    right: 25%;
+    height: 20px;
+    width: 20px;
+  }
+  .button.b8 {
+    background-color: #3877ee;
+    top: 65%;
+    right: 17%;
+    height: 20px;
+    width: 20px;
+  }
+  .button.b9 {
+    background-color: #3877ee;
+    top: 56%;
+    right: 42%;
+    height: 20px;
+    width: 20px;
+  }
+  .button.b10 {
+    background-color: #3877ee;
+    top: 18%;
+    right: 27.5%;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.button.active {
+  width: 140px;
+  display: flex;
+  margin: 10px;
+  border-radius: 40px;
+  opacity: 1;
+  transition: 200ms ease-in 200ms;
+}
+.button h3 {
+  font-size: 15px;
+}
+.button img {
+  padding: 10px;
+}
